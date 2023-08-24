@@ -29,6 +29,6 @@ const inflictDamage1_good = () => {
   damageAmount = damageAmount - (enemyDefensePoint + weaponDefensePoint) / 2
 
   if (damageAmount < 0) {
-    d = 0
+    damageAmount = 0
   }
 }
